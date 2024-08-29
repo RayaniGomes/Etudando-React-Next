@@ -1,9 +1,19 @@
+import { Metadata } from "next";
+import Link from "next/link";
+
+export const metadata: Metadata = {
+    title: {
+        absolute: "Produtos"
+    },
+  };
+
 export default function Produts() {
+    const id = 1
     return (
-        <ul>
-            <li>Produto 1</li>
-            <li>Produto 2</li>
-            <li>Produto 3</li>
-        </ul>
+        <div>
+            <Link href={`/products/${id}`}>Produto 1</Link>
+            <Link href={'/products/2'}>Produto 2</Link>
+            <Link href={'/products/3'} replace  >Produto 3</Link>
+        </div>
     );
 }
