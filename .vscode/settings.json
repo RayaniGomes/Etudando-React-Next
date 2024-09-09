@@ -4,9 +4,11 @@
         "Estudando",
         "Gonçalves",
         "projeto",
+        "quantidade",
         "subtitulo",
         "tailwindcss",
         "testecss",
         "Topo"
-    ]
+    ],
+    "git.ignoreLimitWarning": true
 }
