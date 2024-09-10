@@ -6,4 +6,4 @@ const form = document.querySelector('.form');
 form.addEventListener('submit', event => {
     event.preventDefault(); // não faz o refresh da página
     controller.adiciona();
-})
+});
